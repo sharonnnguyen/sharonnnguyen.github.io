@@ -1,28 +1,188 @@
 <!DOCTYPE html>
-
-<html>
+ 
+<html lang="en">
+ 
+<head>
+    <meta charset="utf-8">
+    <title>Sharon Nguyen</title>
+    <meta name="description" content="This is Sharon's website" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <head>
     
-       <title> My Github Pages Site</title>
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
-    </head>
-    
+</head>
+ 
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
     
-    <a href="gallery/big_1.jpg">
-          <img src="gallery/small_1.jpg" alt=""  />
-    </a>
-     
+    <div class="header">
+        
+        <div class="nav">
+
+            <div class="logo">
+                Sharon Nguyen<span class="black">*</span>
+            </div>
+
+            <div class="links">
+                <a href="#">HOME</a>
+                &bull;
+                <a href="#">ABOUT</a>
+                &bull;
+                <a href="#">ART PAINTING</a>
+                &bull;
+                <a href="#">GRAPHIC DESIGN</a>
+                &bull;
+                <a href="#">FASHION DESIGN</a>
+                &bull;
+                <a href="#">CONTACT ME</a>
+            </div>
+
+        </div>
+        
+    </div>
+    <!-- add images of all your work -->
+    <div class="banner">
+        <img src="gallery/layout.JPEG" /> 
+    </div>
+    <!-- about me section -->
+    <div id="about_container">
+        <h1>About me</h1>
+        <p>
+           Hey! My name is Sharon Nguyen and I'm a first year fashion design student at Massey University. I have been interested in art all my life and here are some previous work of mine. 
+        </p>
+        <div id="centered">
+            <div class="about">
+                <div><img src="gallery/painting_5.JPG" /></div>
+                <div>
+                     <!--lightbox galleries-->
+                    <h2>Art Painting</h2>
+                    <p>
+                        Here are some of my painitings done through out my year in college. They were inspired upon my personal interest upon the world around me.
+                    </p>
+                </div>
+            </div>
+            <div class="about">
+                <div><img src="gallery/graphicdesign_3.JPG" /></div>
+                <div>
+                    <h2>Graphic Design</h2>
+                    <p>
+                        Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.
+                    </p>
+                </div>
+            </div>
+            <div class="about">
+                <div><img src="gallery/fashiondesign_2.JPG" /></div>
+                <div>
+                    <h2>Fashion Design</h2>
+                    <p>
+                        Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
+                    </p>
+                </div>
+            </div>
+        
+                </div>
+            </div>
+    
+    <!-- Art Painting section -->
+    
+    <div id="painting">
+        <div class="pictures">
+            <h1>Art Painting</h1>
+            <p>
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+            </p>
+                <div class="pictures">
+                    <h2> Painting 1 </h2>
+                    <img src="gallery/painting_1.JPG"/>
+                    <img src="gallery/painting_2.JPG"/>
+                    <p>
+                        Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
+                    </p>
+                    
+                </div>
+                <div class="pictures">
+                    <h2>Painting 2</h2>
+                    <img src="gallery/painting_3.JPG" />
+                    <img src="gallery/painting_4.JPG"/>
+                    <p>
+                        Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
+                    </p>
+                    
+                </div>
+                <div class="pictures">
+                    <h2>painting 3</h2>
+                    <img src="gallery/painting_6.JPG"/>
+                    <img src="gallery/painting_7.JPG"/>
+                    <img src="gallery/painting_8.JPG"/>
+                    <p>
+                        Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+    <!-- Graphic Design section -->
+
+   <div id="graphic">
+        <div class="photos">
+            <h1>Graphic Design</h1>
+            <p>
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+            </p>
+                <div class="photos">
+                    <h2>Graphic design 1</h2>
+                    <img src="gallery/graphicdesign_1.JPG"/>
+                    <img src="gallery/graphicdesign_2.JPG"/>
+                    <img src="gallery/graphicdesign_4.JPG"/>
+                    <p>
+                        Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.
+                    </p>
+                    
+                </div>
+               
+                </div>
+            </div>
     
     
-    <!-- JS -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    
+    <!-- Fashion Design Section -->
+<div id="fashion">
+        <div class="pictures">
+            <h1>Fashion Design</h1>
+            <p>
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+            </p>
+            <div id="design">
+                <div class="pictures">
+                    <h2>Fashion design 1</h2>
+                    <img src="gallery/fashiondesign_1.JPG"/>
+                    <img src="gallery/fashiondesign_3.JPG"/>
+                    <p>
+                        Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.
+                    </p>
+                    
+                </div>
+               
+                </div>
+            </div>
+        </div>
+
+
+ <div id="footer">
+        <div class="centered">
+            <div>
+                &copy; Sharon Nguyen 2022
+            </div>
+            <div class="social">
+                <img src="gallery/github.jpeg" />
+                <img src="gallery/gmail" />
+                <img src="gallery/instagram" />
+                <img src="gallery/facebook.jpeg" />
+            </div>
+        </div>
+    </div>
+    
+    
+
 </body>
-    
 </html>

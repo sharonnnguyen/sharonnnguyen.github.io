@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+d* {
+    outline: 1px dotted lime;
+}
+
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: 'quicksand', sans-serif;
+}
+
+.header {
+    background-color: #303030;
+    color: white;
+    height: 90px;
+    border-bottom: 6px solid #4B4E61;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+}
+
+.logo {
+    margin-top: 35px;
+    font-size: 1.4rem;
+}
+
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: right;
+    color: #4B4E61;
+}
+
+.links, a {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+/*  #C2262F */
+.banner {
+    background-color: #D1C0A8 ;
+    padding: 20px 0px ;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 780px;
+    width: 90%;
+}
+
+/*  About me */
+
+#about_container {
+    background-color: #F2F2F2;
+    color: #303030;
+    font-size: 1.1em;
+   
+}
+
+#about_container, h1 {
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about, h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.about, p {
+    font-size: 0.7em;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.about, img {
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+
+/* Art Painting section */
+
+#painting {
+    background-color: #303030;
+    color: #F2F2F2;
+    
+}
+
+#painting, .centered {
+    
+    max-width: 25px;
+    max-height: 50px;
+}
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+#painting, .pictures, #h2 {
+    font-size: 1.2em;
+}
+
+#painting, .pictures p {
+    font-size: 0.7em;
+    line-height: 1.8em;
+
+}
+
+#painting, #img {
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+/* Graphic Design section */
+
+#graphic {
+ background-color: #F2F2F2;
+    color: #303030;
+   
+}
+
+#graphic, .centered {
+    max-width: 100px;
+    max-height: 50px;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#graphic, .photos, #h2 {
+    font-size: 1.2em;
+}
+
+#graphic, #photos, p {
+    font-size: 0.7em;
+    line-height: 1.8em;
+}
+
+#graphic, #img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* Fashion Design Section */
+#fashion {
+    background-color: #303030;
+    color: #F2F2F2;
+}
+
+#fashion, .centered {
+    margin: auto;
+    max-width: 950px;
+}
+
+#fashion, #design {
+    display: grid;
+    grid-template-columns: 1fr;
+    float: left;
+}
+
+#fashion, #design h2 {
+    font-size: 1.2em;
+}
+
+#fashion, #design, #p {
+    font-size: 0.7em;
+    line-height: 1.8em;
+    padding-right: 1em;
+    float: right;
+}
+
+#fashion, #design, #p, #img {
+    padding-right: 0.3em;
+    padding-top: 1em;
+}
+
+#fashion, #img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+ /* footer */
+
+#footer {
+    color: #303030;
+    background-color: #FFFFFF;
+    font-size: 0.7em;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+}
+
+#footer, .centered {
+    display: grid;
+    grid-template-columns: 65% auto;
+    max-width: 950px;
+    margin: auto;
+}
+
+#footer, .social {
+    margin-top: -10px;
+    text-align: right;
+}
+    
+#footer, #img {
+    max-height: 20%;
+    max-width: 20%;
