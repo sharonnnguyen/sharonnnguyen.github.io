@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');;
 d* {
     outline: 1px dotted lime;
 }
 
-body {
+body, html {
     background-color: #FFFFFF;
     margin: 0;
-    font-family: 'quicksand', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 .header {
@@ -27,14 +26,14 @@ body {
 
 .logo {
     margin-top: 35px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .links {
     margin-top: 40px;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     text-align: right;
-    color: #4B4E61;
+    color: #E7C582;
 }
 
 .links, a {
@@ -46,7 +45,7 @@ body {
 
 /*  #C2262F */
 .banner {
-    background-color: #D1C0A8 ;
+    background-color: #800000 ;
     padding: 20px 0px ;
     text-align: center;
 }
@@ -61,30 +60,32 @@ body {
 #about_container {
     background-color: #F2F2F2;
     color: #303030;
-    font-size: 1.1em;
+    font-size: 1.4em;
    
 }
 
 #about_container, h1 {
     font-weight: bold;
-    margin-top: 60px;
+    margin: 0;
 }
 
 .about {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
     margin-top: 50px;
     padding-bottom: 50px;
+    grid-column-gap: 10px;
 }
 
 .about, h2 {
-    font-size: 1.2em;
-    margin-top: 0;
+    font-size: 1.6em;
+    font-weight: bolder;
+    margin: 0;
 }
 
 .about, p {
-    font-size: 0.7em;
+    font-size: 0.9em;
     line-height: 1.8em;
     text-align: justify;
 }
@@ -101,7 +102,14 @@ body {
 #painting {
     background-color: #303030;
     color: #F2F2F2;
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pictures-container {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #painting, .centered {
@@ -109,19 +117,30 @@ body {
     max-width: 25px;
     max-height: 50px;
 }
-.pictures {
+
+.painting-images {
+    text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
     
 }
 
-#painting, .pictures, #h2 {
-    font-size: 1.2em;
+.painting-images-three {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
 }
 
-#painting, .pictures p {
-    font-size: 0.7em;
+#painting .pictures-description, #p {font-size: 1.4em;
+}
+
+#painting .pictures, #h1 {
+    font-size: 1.3em;
     line-height: 1.8em;
 
 }
@@ -137,26 +156,41 @@ body {
 #graphic {
  background-color: #F2F2F2;
     color: #303030;
-   
+    padding-top: 10px;
+    padding-bottom: 10px;  
 }
 
-#graphic, .centered {
-    max-width: 100px;
-    max-height: 50px;
+.photos-description { 
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .photos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#graphic, .photos, #h2 {
-    font-size: 1.2em;
+#centered {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#graphic, #photos, p {
-    font-size: 0.7em;
+#graphic, .centered {
+    max-width: 25px;
+    max-height: 50px;
+}
+
+#graphic .photos-description  {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#graphic .photos, #h1 {
+    font-size: 1em;
+    font-weight: bolder;
     line-height: 1.8em;
 }
 
@@ -165,32 +199,42 @@ body {
     max-width: 100%;
 }
 
+
 /* Fashion Design Section */
 #fashion {
     background-color: #303030;
     color: #F2F2F2;
 }
 
-#fashion, .centered {
-    margin: auto;
-    max-width: 950px;
+.fashion-description {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#fashion, #design {
-    display: grid;
-    grid-template-columns: 1fr;
-    float: left;
+.fashion-container, h1 {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#fashion, #design h2 {
-    font-size: 1.2em;
+.pictures {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#fashion, #design, #p {
+
+#fashion .fashion-container {
+    font-size: 1.8em;
+}
+
+#fashion, #pictures, #p {
     font-size: 0.7em;
     line-height: 1.8em;
     padding-right: 1em;
-    float: right;
 }
 
 #fashion, #design, #p, #img {
@@ -209,22 +253,24 @@ body {
     color: #303030;
     background-color: #FFFFFF;
     font-size: 0.7em;
-    padding: 40px 20px;
-    padding-bottom: 50px;
+    padding: 10px;
 }
 
-#footer, .centered {
+.footer-grid {
     display: grid;
     grid-template-columns: 65% auto;
     max-width: 950px;
     margin: auto;
 }
 
-#footer, .social {
-    margin-top: -10px;
+.social {
     text-align: right;
 }
+
+.copyright {
+    margin-top: 20px;
+}
     
-#footer, #img {
-    max-height: 20%;
-    max-width: 20%;
+.social img {
+    height: 50px;
+}
