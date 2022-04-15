@@ -65,7 +65,7 @@ body, html {
 }
 
 #about_container, h1 {
-    font-weight: bold;
+    font-weight: 100;
     margin: 0;
 }
 
@@ -80,14 +80,13 @@ body, html {
 
 .about, h2 {
     font-size: 1.6em;
-    font-weight: bolder;
+    font-weight: 100;
     margin: 0;
 }
 
 .about, p {
     font-size: 0.9em;
     line-height: 1.8em;
-    text-align: justify;
 }
 
 .about, img {
@@ -112,14 +111,8 @@ body, html {
     margin-right: auto;
 }
 
-#painting, .centered {
-    
-    max-width: 25px;
-    max-height: 50px;
-}
-
 .painting-images {
-    text-align: center;
+    text-align: right;
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: 1fr 1fr;
@@ -130,19 +123,21 @@ body, html {
 }
 
 .painting-images-three {
-    text-align: center;
+    text-align: right;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 20px;
 }
 
-#painting .pictures-description, #p {font-size: 1.4em;
+#painting .pictures-description, #p {
+    font-size: 1.4em;
+    font-weight: 100;
 }
 
 #painting .pictures, #h1 {
     font-size: 1.3em;
     line-height: 1.8em;
-
+    font-weight: 100;
 }
 
 #painting, #img {
@@ -178,19 +173,14 @@ body, html {
     margin-right: auto;
 }
 
-#graphic, .centered {
-    max-width: 25px;
-    max-height: 50px;
-}
-
 #graphic .photos-description  {
     font-size: 1.4em;
-    font-weight: bold;
+    font-weight: 100;
 }
 
 #graphic .photos, #h1 {
     font-size: 1em;
-    font-weight: bolder;
+    font-weight: 100;
     line-height: 1.8em;
 }
 
@@ -234,12 +224,12 @@ body, html {
 #fashion, #pictures, #p {
     font-size: 0.7em;
     line-height: 1.8em;
-    padding-right: 1em;
 }
 
 #fashion, #design, #p, #img {
     padding-right: 0.3em;
     padding-top: 1em;
+    font-weight: 100;
 }
 
 #fashion, #img {
